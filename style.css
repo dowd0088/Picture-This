@@ -33,10 +33,14 @@ img {
   display: block;
 }
 
+/* For the css I made it so that the image would scale properly */
+
 picture img {
   width: 100%;
   height: auto;
 }
+
+/* I kept the media the same here but also added the same css above for screens bigger than 960px */
 
 @media (min-width: 960px) {
   .header {
